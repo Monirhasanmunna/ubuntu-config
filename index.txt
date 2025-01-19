@@ -1,0 +1,14 @@
+1. sudo apt update
+
+2. sudo apt install apache2
+
+3. sudo systemctl start apache2
+   sudo systemctl enable apache2
+
+4. sudo apt install mysql-server
+
+5. sudo mysql_secure_installation
+
+6. sudo apt install php libapache2-mod-php php-mysql
+
+7. sudo systemctl restart apache2
