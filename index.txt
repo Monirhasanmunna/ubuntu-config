@@ -12,3 +12,19 @@
 6. sudo apt install php libapache2-mod-php php-mysql
 
 7. sudo systemctl restart apache2
+
+
+// php and composer install proccess
+
+sudo apt install php8.3-cli unzip curl -y
+curl -sS https://getcomposer.org/installer | php
+sudo mv composer.phar /usr/local/bin/composer
+composer --version
+
+
+// software install process
+1. ls
+
+2. sudo dpkg -i package path
+
+3. sudp apt-get install -f
